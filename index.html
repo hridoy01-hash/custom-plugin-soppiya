@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom plugin</title>
+    <style>
+        .body_container {
+            position: relative;
+        }
+
+        .circuleButton_wrapper {
+            display: none;
+            position: fixed;
+            bottom: 68px;
+            left: 26px;
+            z-index: 95;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: yellowgreen;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .17);
+            cursor: pointer;
+        }
+
+        .topIcon {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 10px;
+            font-weight: 600;
+        }
+
+        svg#liquid_chevron_icon {
+            transform: r(10px, 10px);
+            transform: rotate(-180deg);
+        }
+
+        @media screen and (min-width:645px) {
+            .circuleButton_wrapper {
+                display: none;
+                position: fixed;
+                bottom: 15px;
+                right: 26px;
+                left: unset;
+                z-index: 95;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: yellowgreen;
+                box-shadow: 0 0 5px rgba(0, 0, 0, .17);
+                cursor: pointer;
+            }
+        }
+    </style>
+</head>
+
+<body>
+</body>
+
+</html>
